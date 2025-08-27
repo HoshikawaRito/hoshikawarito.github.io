@@ -8,7 +8,7 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">夜雨博客</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -18,13 +18,13 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">主页</a>
+                        <a class="nav-link" href="./index.html">主页</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">文章</a>
+                        <a class="nav-link" href="./article.html">文章</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">精选</a>
+                        <a class="nav-link" href="./specialArticle.html">精选</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">关于</a>
@@ -32,19 +32,23 @@
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="搜索……" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-secondary" type="submit">Search</button>
                 </form>
             </div>
         </div>
     </nav>
     <div class="row">
-        <div class="col-6 offset-1 pt-5">
+        <div class="col-8 offset-1 pt-5">
             <p class="display-1">About me.</p>
             <p>兴趣使然的摸鱼兔子。</p>
             <p>偶尔想起来了，摸鱼看一眼博客。</p>
             <br>
             <p>E-mail: <a href="mailto:rito@kurorito.com">rito@kurorito.com</a> (没有admin，不用试了)</p>
             <p>每晚18时~22时处理邮件（UTC+8）</p>
+        </div>
+        <div class="col-3 pt-5 px-4">
+            <img src="./cornflower.jpg" class="img-fluid rounded mx-auto d-block" alt="Cornflower">
+            <p class="text-center small">矢车菊</p>
         </div>
     </div>
     <footer class="bd-footer py-3 mt-auto bg-dark text-white border-top border-dark">
